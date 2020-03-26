@@ -1,0 +1,154 @@
+header {
+    //height: 48px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #262253;
+    color:white;
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+}
+
+header h2 {
+    font-family: "Raleway", serif;
+    font-size: 2.2rem;
+    line-height: 0;
+}
+
+html {
+    font-family: Raleway;
+}
+
+body {
+    font-family: "Raleway", serif;
+    background-color: #80808029;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin:0;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+    width: 91%;
+    background: transparent;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.section {
+    font-family: "raleway-medium", sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.8;
+
+    border-radius: 2px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+    background-color: white;
+    margin-bottom: 20px;
+    width: 400px;
+
+    margin-left: 2px;
+    margin-right: 2px;
+
+    margin-top: 6px;
+}
+
+.section-head {
+    font-family: "raleway", serif;
+    text-align: center;
+    border-bottom-width:1px;
+    border-bottom-color:gray;
+    border-bottom-style:solid;
+    font-size: 24px;
+
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-top-color:#262253;
+    border-top-style:solid;
+
+    font-weight: 600;
+}
+
+.section-body {
+    font-family: "Raleway", serif;
+    text-align: center;
+    font-size: 23px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 28px;
+}
+
+.section a {
+  text-decoration: none;
+}
+
+button {
+    background-color: #262253;
+    color: white;
+    padding: 6px 12px;
+    font-size: 14px;
+    margin-bottom: 0;
+    border-radius: 4px;
+    background-image: none;
+    border: 1px solid transparent;
+    font-family: "raleway", sans-serif;
+
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.counter {
+  border: 2px solid #262253;
+  padding: 10px;
+}
+
+.metrics-head {
+  border-bottom: 1px solid #262253;
+}
+
+.metrics-body {
+  font-size: 15px;
+}
+
+input, textarea {
+  width: 100%;
+  box-sizing: border-box;
+
+  padding-top: 11px;
+  padding-bottom: 11px;
+  margin-top: 5px;
+  font-size: 17px;
+  border-color: #262253;
+}
+
+@media(max-width: 500px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .section {
+    width: 91%;
+  }
+
+  header h2 {
+      font-size: 1.8rem;
+  }
+
+}

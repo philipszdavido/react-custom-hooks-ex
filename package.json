@@ -1,0 +1,31 @@
+{
+  "name": "react",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@rehooks/document-title": "^1.0.1",
+    "@rehooks/local-storage": "^2.3.0",
+    "@rehooks/network-status": "^1.0.0",
+    "@rehooks/online-status": "^1.1.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "react-script-hook": "^1.0.15",
+    "react-speech-kit": "^2.0.3",
+    "react-use-idb": "^1.0.2",
+    "react-window-communication-hook": "^1.5.0",
+    "use-clippy": "^1.0.6",
+    "use-mouse-action": "^2.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  }
+}
