@@ -108,7 +108,7 @@ button {
     border-radius: 4px;
     background-image: none;
     border: 1px solid transparent;
-    font-family: "raleway", sans-serif;
+    font-family: "aleway", sans-serif;
 
     margin-left: 1px;
     margin-right: 1px;
@@ -136,6 +136,7 @@ input, textarea {
   margin-top: 5px;
   font-size: 17px;
   border-color: #262253;
+  border-radius: 4px;
 }
 
 @media(max-width: 500px) {
